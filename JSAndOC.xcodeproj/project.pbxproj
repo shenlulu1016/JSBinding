@@ -15,6 +15,7 @@
 		9E9AB3851D26009B00411B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9AB3831D26009B00411B4F /* LaunchScreen.storyboard */; };
 		9E9AB3901D26009B00411B4F /* JSAndOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9AB38F1D26009B00411B4F /* JSAndOCTests.m */; };
 		9E9AB39B1D26009B00411B4F /* JSAndOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9AB39A1D26009B00411B4F /* JSAndOCUITests.m */; };
+		9E9AB3AC1D2606F500411B4F /* Point3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9AB3AB1D2606F500411B4F /* Point3D.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9E9AB3961D26009B00411B4F /* JSAndOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSAndOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9AB39A1D26009B00411B4F /* JSAndOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAndOCUITests.m; sourceTree = "<group>"; };
 		9E9AB39C1D26009B00411B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9AB3AA1D2606F500411B4F /* Point3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		9E9AB3AB1D2606F500411B4F /* Point3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point3D.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				9E9AB3791D26009B00411B4F /* AppDelegate.m */,
 				9E9AB37B1D26009B00411B4F /* ViewController.h */,
 				9E9AB37C1D26009B00411B4F /* ViewController.m */,
+				9E9AB3A81D2606BF00411B4F /* JSBinding */,
 				9E9AB37E1D26009B00411B4F /* Main.storyboard */,
 				9E9AB3811D26009B00411B4F /* Assets.xcassets */,
 				9E9AB3831D26009B00411B4F /* LaunchScreen.storyboard */,
@@ -138,6 +142,23 @@
 				9E9AB39C1D26009B00411B4F /* Info.plist */,
 			);
 			path = JSAndOCUITests;
+			sourceTree = "<group>";
+		};
+		9E9AB3A81D2606BF00411B4F /* JSBinding */ = {
+			isa = PBXGroup;
+			children = (
+				9E9AB3A91D2606D700411B4F /* JSExports */,
+			);
+			path = JSBinding;
+			sourceTree = "<group>";
+		};
+		9E9AB3A91D2606D700411B4F /* JSExports */ = {
+			isa = PBXGroup;
+			children = (
+				9E9AB3AA1D2606F500411B4F /* Point3D.h */,
+				9E9AB3AB1D2606F500411B4F /* Point3D.m */,
+			);
+			path = JSExports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9AB37D1D26009B00411B4F /* ViewController.m in Sources */,
+				9E9AB3AC1D2606F500411B4F /* Point3D.m in Sources */,
 				9E9AB37A1D26009B00411B4F /* AppDelegate.m in Sources */,
 				9E9AB3771D26009B00411B4F /* main.m in Sources */,
 			);
